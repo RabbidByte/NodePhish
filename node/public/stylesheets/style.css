@@ -1,0 +1,49 @@
+body {
+  font-family: 'Georgia';
+  background-color: #ffffff;
+}
+.main {
+  margin-bottom: 30px;
+  width: 350px;
+  font-size: 0.9em;
+  font-weight: normal;
+  font-family: "Segoe UI" , "Segoe" , "SegoeUI-Regular-final", Tahoma, Helvetica, Arial, sans-serif;
+}
+.form.input {
+  margin-bottom: 8px;
+  padding: 0px 3px 0px 3px;
+  border: solid 1px #BABABA;
+  font-style: normal;
+  font-variant-ligatures: normal;
+  font-variant-caps: normal;
+  font-variant-numeric: normal;
+  font-variant-east-asian: normal;
+  font-weight: 400;
+  font-stretch: normal;
+  font-size: 13.3333px;
+  line-height: normal;
+}
+button.submit {
+  border: none;
+  background-color: rgb(38, 114, 236);
+  min-width: 80px;
+  width: auto;
+  height: 30px;
+  padding: 4px 20px 6px 20px;
+  border-style: solid;
+  border-width: 1px;
+  color: #ffffff;
+  margin-bottom: 8px;
+  cursor: pointer;
+  font-weight: normal;
+  font-family: "Segoe UI" , "Segoe" , "SegoeUI-Regular-final", Tahoma, Helvetica, Arial, sans-serif;
+}
+footer {
+  margin: 90px;
+  padding: 0;
+  text-align: left;
+  color: #000000;
+  font-size: 0.78em;
+  font-weight: normal;
+  font-family: "Segoe UI" , "Segoe" , "SegoeUI-Regular-final", Tahoma, Helvetica, Arial, sans-serif;
+}

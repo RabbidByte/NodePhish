@@ -1,0 +1,19 @@
+extend layout
+block content
+	div.topstrip(style="width:80%;padding-bottom:0px; padding-top:60px; padding-left:80px")
+			div.header
+				a(href="https://www.COMPANY.com")
+					img(src="/images/logo.png", style="text-align:middle;")
+	div.main(style="width:80%;padding-bottom:0px; padding-top:80px; padding-left:90px")
+			text Sign in with your organizational account
+	div.form(style="width:342px;padding-bottom:0px; padding-top:0px; padding-left:90px")
+			<form action="/signin" id="signin" method="post">
+	div.user(style="width:342px;padding-bottom:10px; padding-top:0px; padding-left:90px")
+			<input size="32" id="userNameInput" name="UserName" type="email" value="" tabindex="1" placeholder="someone@example.com" autocomplete="off">
+	div.pass(style="width:342px;padding-bottom:10px; padding-top:0px; padding-left:90px")
+			<input size="32" id="passwordInput" name="Password" type="password" tabindex="2" placeholder="Password" autocomplete="off">
+			<input type="hidden" name="id" value="#{id}">
+	div.button(style="width:342px;padding-bottom:10px; padding-top:30px; padding-left:90px")
+			<button id="submitButton" class="submit" tabindex="4">Sign in</span>
+			</form>
+
